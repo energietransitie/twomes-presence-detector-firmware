@@ -1,6 +1,6 @@
-# Twomes Presence-Detector example
+# Twomes Presence Detector firmware (template)
 
-This example is a PlatformIO project that uses the [twomes-generic-esp-firmware](https://github.com/energietransitie/twomes-generic-esp-firmware) library. To work with this example, (clone this reposotory and) open the root directory of the Twomes Generic-Test example in Visual Studio Code.
+This is a template for a repository with a PlatformIO project that uses the [twomes-generic-esp-firmware](https://github.com/energietransitie/twomes-generic-esp-firmware) library. To create your own Twomes measurement device, select `Use this template`, consult the [documentation how to use this template and add code for measurement of specific properties](https://www.energietransitiewindesheim.nl/twomes-generic-esp-firmware).
 
 ## Table of contents
 * [General info](#general-info)
@@ -13,7 +13,11 @@ This example is a PlatformIO project that uses the [twomes-generic-esp-firmware]
 * [Credits](#credits)
 
 ## General info
-The Twomes Presence-Detector example sends [generic data sent by any Twomes measurement device](https://github.com/energietransitie/twomes-generic-esp-firmware#readme) to a Twomes server. In addition, it also sends presence detection data to the Twomes server.
+The Twomes Presence-Detector example sends [generic data sent by any Twomes measurement device](https://github.com/energietransitie/twomes-generic-esp-firmware#readme) to a Twomes server. In addition, it also sends presence detection data to the Twomes server:
+
+| Sensor | Property           | Unit | [Printf format](https://en.wikipedia.org/wiki/Printf_format_string) | Default measurement interval \[h:mm:ss\] | Description                            |
+|--------|--------------------|------|--------|-------------------|----------------------------------------|
+| Bluetooth  | `countPresence`         | [-]   | %u   | 0:10:00           | number of smartphones responding to Bluetooth name request                        |
 
 ## Deploying
 To deploy this software, see the [deploying section in the twomes-generic-esp-firmware library documentation](https://www.energietransitiewindesheim.nl/twomes-generic-esp-firmware/deploying/prerequisites/).
