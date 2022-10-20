@@ -13,13 +13,13 @@ This example is a PlatformIO project that uses the [twomes-generic-esp-firmware]
 * [Credits](#credits)
 
 ## General info
-The Twomes Presence-Detector example sends [generic data sent by any Twomes measurement device](https://github.com/energietransitie/twomes-generic-esp-firmware#readme) to a Twomes server. In addition, it also sends presence detection data to the Twomes server.
+The Twomes Presence-Detector example sends [generic data sent by any Twomes measurement device](https://github.com/energietransitie/twomes-generic-esp-firmware#readme) to a Twomes server. In particular, it also sends presence detection data to the Twomes server.
 
 ## Deploying
 To deploy this software, see the [deploying section in the twomes-generic-esp-firmware library documentation](https://www.energietransitiewindesheim.nl/twomes-generic-esp-firmware/deploying/prerequisites/).
 
 ## Developing
-To develop software for, or based on this software, see the [developing section in the twomes-generic-esp-firmware library documentation](https://www.energietransitiewindesheim.nl/twomes-generic-esp-firmware/developing-library-getstarted/prerequisites/)
+To develop software for, or based on this software, see the [developing section in the twomes-generic-esp-firmware library documentation](https://www.energietransitiewindesheim.nl/twomes-generic-esp-firmware/starting/prerequisites/)
 
 ## Supported devices
 This example was tested on:
@@ -29,11 +29,10 @@ This example still needs to be tested n:
 - [LilyGO TTGO T7 Mini32 V1.3 ESP32](https://github.com/LilyGO/ESP32-MINI-32-V1.3)
 
 ## Features
-The example features generic firmware tasks, including Bluetooth-based presence detection. For an example that does not include presence detection, we refer to the Twomes GEneric-Test example](../generic-test/README.md).
+The example features generic firmware tasks, including Bluetooth-based presence detection.
 
 Ready:
-* Generic firmware tasks
-* Use [Twomes generic ESP32 firmware library](https://github.com/energietransitie/twomes-generic-esp-firmware)
+* Generic firmware tasks using the [twomes-generic-esp-firmware](https://github.com/energietransitie/twomes-generic-esp-firmware)
 
 To-do:
 * Automate build of device installation manual pages.
@@ -54,4 +53,4 @@ Product owners:
 
 We use and gratefully acknowlegde the efforts of the makers of the following source code and libraries:
 * [ESP-IDF](https://github.com/espressif/esp-idf), by Espressif Systems, licensed under [Apache License 2.0](https://github.com/espressif/esp-idf/blob/9d34a1cd42f6f63b3c699c3fe8ec7216dd56f36a/LICENSE)
-* [Twomes Generic ESP Firmware](https://github.com/energietransitie/twomes-generic-esp-firmware), by Research group Energy Transition, Windesheim University of Applied Sciences, licensed under [Apache License 2.0](https://github.com/energietransitie/twomes-generic-esp-firmware/blob/main/LICENSE.md)
+* [Twomes Generic ESP Firmware](https://github.com/energietransitie/twomes-generic-esp-firmware), by [Research group Energy Transition, Windesheim University of Applied Sciences](https://windesheim.nl/energietransitie), licensed under [Apache License 2.0](https://github.com/energietransitie/twomes-generic-esp-firmware/blob/main/LICENSE.md)
