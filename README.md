@@ -29,14 +29,10 @@ This example still needs to be tested n:
 - [LilyGO TTGO T7 Mini32 V1.3 ESP32](https://github.com/LilyGO/ESP32-MINI-32-V1.3)
 
 ## Features
-The example features generic firmware tasks, including Bluetooth-based presence detection.
+The example features all generic firmware tasks.
 
 Ready:
-* Generic firmware tasks using the [twomes-generic-esp-firmware](https://github.com/energietransitie/twomes-generic-esp-firmware)
-
-To-do:
-* Automate build of device installation manual pages.
-* Automate build of device info page.
+* Generic firmware tasks using the [twomes-generic-esp-firmware](https://github.com/energietransitie/twomes-generic-esp-firmware) library, including presence detection based on Bluetooth name requests.
 
 ## Status
 Project is: _in progress_
