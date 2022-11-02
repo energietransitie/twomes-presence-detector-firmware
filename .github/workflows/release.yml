@@ -71,7 +71,7 @@ jobs:
       - name: Sign firmware
         uses: espressif/esp-idf-ci-action@main
         with:
-          command: espsecure.py sign_data -v1 --keyfile secure_boot_signing_key.pem --output $BUILD_DIR/firmware-signed_${{ matrix.platformio_env }}.bin $BUILD_DIR/firmware.bin
+          command: espsecure.py sign_data -v1 --keyfile secure_boot_signing_key.pem --output $BUILD_DIR/firmware-signed_${{ matrix.platformio_env }}_${{ matrix.twomes_server_env }}.bin $BUILD_DIR/firmware.bin
       
       # Set ARCHIVE_NAME variable from ARCHIVE_PREFIX and tag name.
       - name: Set ARCHIVE_NAME
@@ -90,4 +90,4 @@ jobs:
           draft: true
           files: |
             ${{ env.BUILD_DIR }}/${{ env.ARCHIVE_NAME }}.zip
-            ${{ env.BUILD_DIR }}/firmware-signed_${{ matrix.platformio_env }}.bin
+            ${{ env.BUILD_DIR }}/firmware-signed_${{ matrix.platformio_env }}_${{ matrix.twomes_server_env }}.bin
