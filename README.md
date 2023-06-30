@@ -22,7 +22,7 @@ A Twomes Presence Detector measurement device, in addition to [generic data sent
 
 | Sensor | Property           | Unit | [Printf format](https://en.wikipedia.org/wiki/Printf_format_string) | Default measurement interval \[h:mm:ss\] | Description                            |
 |--------|--------------------|------|--------|-------------------|----------------------------------------|
-| Bluetooth  | `countPresence`         | [-]   | %u   | 0:10:00           | number of smartphones responding to Bluetooth name request                        |
+| Bluetooth  | `occupancy__p`         | [-]   | %u   | 0:10:00           | number of smartphones responding to Bluetooth name request                        |
 
 ## Deploying
 To deploy this software, see the [deploying section in the twomes-generic-esp-firmware library documentation](https://www.energietransitiewindesheim.nl/twomes-generic-esp-firmware/deploying/prerequisites/). The firmware needed can be found as a [release from this repository](https://github.com/energietransitie/twomes-presence-detector/releases).
