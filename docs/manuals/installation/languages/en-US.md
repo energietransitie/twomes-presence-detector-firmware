@@ -4,7 +4,7 @@
 
 # About the device
 
-This measurement device is meant for installation tests and testing the stability of the twomes data collection; after installation, the device will send a 'heartbeat' every 10 minutes to the Twomes server using your home Wi-Fi network.
+This measurement device is meant for installation tests and testing the stability of the NeedForHeat data collection; after installation, the device will send a 'heartbeat' every 10 minutes to the NeedForHeat server using your home Wi-Fi network.
 
 # Installation
 
