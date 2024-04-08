@@ -1,4 +1,4 @@
-# Twomes Presence Detector example
+# NeedForHeat Presence Detector example
 
 This is a [template project](https://github.com/energietransitie/twomes-presence-detector/generate) that can be used to create firmware for measurement devices that use the [twomes-generic-esp-firmware](https://github.com/energietransitie/twomes-generic-esp-firmware) library.
 
@@ -14,15 +14,15 @@ This is a [template project](https://github.com/energietransitie/twomes-presence
 * [Credits](#credits)
 
 ## General info
-The Twomes Presence Detector primarily serves as an example and template repository how to create firmware that uses the [twomes-generic-esp-firmware](https://github.com/energietransitie/twomes-generic-esp-firmware) library. Nevertheless, it can be used in  measurement campaigns that require occupancy detection using Bluetooth name requests.
+The NeedForHeat Presence Detector primarily serves as an example and template repository how to create firmware that uses the [twomes-generic-esp-firmware](https://github.com/energietransitie/twomes-generic-esp-firmware) library. Nevertheless, it can be used in  measurement campaigns that require occupancy detection using Bluetooth name requests.
 
 ## Measurements
 
-A Twomes Presence Detector measurement device, in addition to [generic data sent by any Twomes measurement device](https://github.com/energietransitie/twomes-generic-esp-firmware#readme), sends data about the following property via the [Twomes API](https://github.com/energietransitie/twomes-backoffice-api) to a Twomes server:
+A NeedForHeat Presence Detector measurement device, in addition to [generic data sent by any NeedForHeat measurement device](https://github.com/energietransitie/twomes-generic-esp-firmware#readme), sends data about the following property via the [NeedForHeat API](https://github.com/energietransitie/twomes-backoffice-api) to a NeedForHeat server:
 
-| Sensor | Property           | Unit | [Printf format](https://en.wikipedia.org/wiki/Printf_format_string) | Default measurement interval \[h:mm:ss\] | Description                            |
-|--------|--------------------|------|--------|-------------------|----------------------------------------|
-| Bluetooth  | `occupancy__p`         | [-]   | %u   | 0:10:00           | number of smartphones responding to Bluetooth name request                        |
+| Sensor    | Property       | Unit | [Printf format](https://en.wikipedia.org/wiki/Printf_format_string) | Default measurement interval \[h:mm:ss\] | Description                                                |
+| --------- | -------------- | ---- | ------------------------------------------------------------------- | ---------------------------------------- | ---------------------------------------------------------- |
+| Bluetooth | `occupancy__p` | [-]  | %u                                                                  | 0:10:00                                  | number of smartphones responding to Bluetooth name request |
 
 ## Deploying
 To deploy this software, see the [deploying section in the twomes-generic-esp-firmware library documentation](https://www.energietransitiewindesheim.nl/twomes-generic-esp-firmware/deploying/prerequisites/). The firmware needed can be found as a [release from this repository](https://github.com/energietransitie/twomes-presence-detector/releases).

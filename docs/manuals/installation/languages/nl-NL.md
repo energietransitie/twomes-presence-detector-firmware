@@ -4,7 +4,7 @@
 
 # Over het apparaat
 
-Dit meetapparaatje is bedoeld voor installatietesten en het testen van de stabiliteit van de Twomes dataverzameling; na installatie stuurt het apparaatje elke 10 minuten een 'heartbeat' naar de Twomes server via uw Wi-Fi netwerk thuis.
+Dit meetapparaatje is bedoeld voor installatietesten en het testen van de stabiliteit van de NeedForHeat dataverzameling; na installatie stuurt het apparaatje elke 10 minuten een 'heartbeat' naar de NeedForHeat server via uw Wi-Fi netwerk thuis.
 
 # Installatie
 
